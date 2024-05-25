@@ -77,6 +77,8 @@ fun ColorList(onClick: (Color) -> Unit) {
         Color.Magenta,
         Color.Yellow,
         Color.Green,
+        Color.White,
+        Color.Gray
     )
     LazyRow(
         modifier = Modifier.padding(10.dp)
